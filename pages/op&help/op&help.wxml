@@ -1,0 +1,17 @@
+<view class="tab">
+	<view class='tab-btn {{tabdata==0?"tab-border":""}}' data-tabdata="0" catchtap="tap">操作指南</view>
+	<view class='tab-btn {{tabdata==1?"tab-border":""}}' data-tabdata="1" catchtap="tap">意见反馈</view>
+</view>
+<swiper current="{{tabdata}}" bindchange="bindchang" class="swiper">
+	<swiper-item>
+		<view class="help-box">
+			开发中，敬请期待！！
+		</view>
+	</swiper-item>
+	<swiper-item>
+		<view class="feedback">
+			<view class="title"> 联系方式</view>
+			email: luo66.vip@gmail.com
+		</view>
+	</swiper-item>
+</swiper>

@@ -1,0 +1,47 @@
+
+.tab{
+  width: 750rpx;
+  height: 80rpx;
+}
+.tab-btn{
+  margin: 10rpx 110rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  display: inline-block;
+  font-weight: 450;
+}
+.tab-border{
+  color: #abcaff;
+  border-bottom: 10rpx solid #b4a3ff;
+}
+.swiper{
+  height: 1000rpx;
+  width: 750rpx;
+}
+.help-box{
+  background-color: #D1F5F3;
+  margin:80rpx auto;
+  width: 650rpx;
+  height: 800rpx;
+  line-height: 600rpx;
+  border: 6rpx solid #abcaff;
+  border-radius: 30rpx;
+  text-align: center;
+  font-weight: 500;
+
+}
+.feedback{
+  background-color: #D1F5F3;
+  margin:80rpx auto;
+  width: 650rpx;
+  height: 800rpx;
+  border: 6rpx solid #abcaff;
+  border-radius: 30rpx;
+  text-align: center;
+  font-weight: 500;
+}
+.title{
+  text-align: center;
+  font-weight: 500rpx;
+  margin: 270rpx auto 30rpx;
+}

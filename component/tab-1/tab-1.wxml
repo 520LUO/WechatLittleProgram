@@ -1,0 +1,12 @@
+	<view class="banner-box" wx:for="{{banner}}">
+	<navigator url="{{item.url}}">
+	<view class="section-box" >
+			<image src="{{item.img}}" class="img" ></image>
+			<view class="right-box">
+				<view class="title">{{item.title}}</view>
+				<view class="detail">{{item.detail}}</view>
+			</view>
+		</view>
+	</navigator>
+		
+	</view>

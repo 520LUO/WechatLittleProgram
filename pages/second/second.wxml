@@ -1,0 +1,11 @@
+
+
+<view class="tab">
+  <view class='tab-btn {{tabdata==0?"tab-border":""}}' data-tabdata="0" catchtap="tap">热门识别</view>
+  <view class='tab-btn {{tabdata==1?"tab-border":""}}' data-tabdata="1" catchtap="tap">其他识别</view>
+</view>
+
+<swiper current="{{tabdata}}"  bindchange="bindchang"  class="swiper">
+  <swiper-item><tab-one></tab-one></swiper-item>
+  <swiper-item><tab-two></tab-two></swiper-item>
+</swiper>

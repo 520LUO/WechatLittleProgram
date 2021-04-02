@@ -1,0 +1,12 @@
+<view class="big-box">
+
+<view class="input-box">
+		<text>原用户名</text>
+		<input class="input" type="text" bindinput="getAccount" placeholder="输入原用户名"></input>
+	</view>
+	<view class="input-box">
+		<text>新用户名</text>
+		<input class="input" type="text" bindinput="getNewname" placeholder="输入新用户名"></input>
+	</view>
+<view class="updateName" bindtap="updateName"> 确认修改</view>
+</view>

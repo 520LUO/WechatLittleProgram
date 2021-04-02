@@ -1,0 +1,22 @@
+<view class="big-box">
+	<view class="head-box">
+		<view class="img-box" bindtap="addImage">
+			<image class="img" src="{{headimg}}" mode="aspectFill"></image>
+			<view class="img-text">上传头像</view>
+		</view>
+	</view>
+	<view class="input-box">
+		<view class="text-box">帐户</view>
+		<input class="input" type="text" bindinput="getAccount" placeholder="输入帐户名"></input>
+	</view>
+	<view class="input-box">
+		<view class="text-box">密码</view>
+		<input class="input" type="password" bindinput="getPassWord" placeholder="输入密码"></input>
+	</view>
+	<view class="input-box">
+		<view class="text-box">确认密码</view>
+		<input class="input" type="password" bindinput="getidentifyPassword" placeholder="再次输入密码"></input>
+	</view>
+	<view class="register" bindtap="register" >注 册</view>
+
+</view>

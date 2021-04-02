@@ -1,0 +1,20 @@
+
+.tab{
+  width: 750rpx;
+  height: 80rpx;
+}
+.tab-btn{
+  margin: 10rpx 110rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  display: inline-block;
+  font-weight: 450;
+}
+.tab-border{
+  color: #abcaff;
+  border-bottom: 10rpx solid #b4a3ff;
+}
+.swiper{
+  height: 1000rpx;
+  width: 750rpx;
+}

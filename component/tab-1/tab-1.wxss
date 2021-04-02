@@ -1,0 +1,33 @@
+.banner-box{
+  width: 700rpx;
+  background-color: #d7edf7;
+  margin: 45rpx auto;
+  border-radius:30rpx ;
+}
+.section-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.img{
+  width: 180rpx;
+  height: 180rpx;
+}
+.right-box{
+  width: 450rpx;
+  height: 240rpx;
+}
+.title{
+  font-size: 38rpx;
+  font-weight: 500;
+  margin-top: 30rpx;
+  margin-bottom: 60rpx;
+  text-indent: 25rpx;
+}
+.detail{
+  font-size: 28rpx;
+  font-weight: lighter;
+  text-indent: 25rpx;
+  color: rgb(83, 82, 82);
+}

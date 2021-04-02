@@ -1,0 +1,64 @@
+<view class="img-box"  bindtap="click">
+	<image src="{{img}}" class="img" mode="aspectFit"></image>
+</view>
+<view class="btn" bindtap="click">选择图片</view>
+<view wx:if="{{str=='text'}}">
+	<view class="result1-box">
+		<view wx:for="{{array}}">
+			<view class="word-result">{{item.words}}</view>
+		</view>
+	</view>
+</view>
+<view wx:if="{{str=='ticket'}}">
+	<view wx:for="{{array}}" class="result1-box" >
+   <view class="word-result">{{index}}</view>
+		<view class="word-result">{{item}}</view>
+	</view>
+</view>
+<view wx:if="{{str=='idcard'}}">
+		<view wx:for="{{array}}" class="result1-box" >
+  <view class="word-result"> {{index}}</view>
+		<view class="word-result">{{item.words}}</view>
+	</view>
+</view>
+<view wx:if="{{str=='bankcard'}}">
+		<view wx:for="{{array}}" class="result1-box" >
+   <view class="word-result">{{index}}</view>
+		<view class="word-result">{{item}}</view>
+	</view>
+</view>
+<view wx:if="{{str=='plant'}}">
+	<view wx:for="{{array}}" class="result2-box">
+		<view class="item.name">名称: {{item.name}}</view>
+		<view class="item.score"> 相似度:{{item.score}}%</view>
+	</view>
+</view>
+<view wx:if="{{str=='animal'}}">
+	<view wx:for="{{array}}" class="result2-box">
+		<view class="item.name">名称:{{item.name}}</view>
+		<view class="item.score">相似度:{{item.score}}%</view>
+	</view>
+</view>
+<view wx:if="{{str=='cute'}}">
+	<view class="result3-box">
+<image src="data:image/png;base64,{{cute_img}}" class="result-image" mode="aspectFit" > </image>
+</view>
+</view>
+<view wx:if="{{str=='qrcode'}}">
+	<view wx:for="{{array}}" class="result1-box" >
+   <view class="word-result">类型：{{item.type}}</view>
+		<view class="word-result"wx:for="{{item.text}}">内容： {{item}}</view>
+	</view>
+</view>
+<view wx:if="{{str=='passport'}}">
+	<view wx:for="{{array}}" class="result1-box" >
+  <view class="word-result"> {{index}}</view>
+		<view class="word-result">{{item.words}}</view>
+	</view>
+</view>
+<view wx:if="{{str=='car'}}">
+	<view wx:for="{{array}}" class="result1-box" >
+   <view class="word-result">{{index}}</view>
+		<view class="word-result">{{item}}</view>
+	</view>
+</view>

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "tab-one": "../../component/tab-1/tab-1",
+    "tab-two": "../../component/tab-2/tab-2"
+  },
+  "navigationBarTitleText": "更多识别"
+}

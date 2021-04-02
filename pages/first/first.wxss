@@ -1,0 +1,43 @@
+.big-box{
+  background: linear-gradient(to bottom,#fdfdfd , #f3eeee,#e4e4e4);
+  width: 100%;
+  height: 1400rpx;
+}
+.swiper-box{
+  width: 97%;
+  height: 450rpx;
+  margin:  30rpx auto;
+}
+.img{
+  width: 100%;
+  height: 400rpx;
+  border-radius: 23rpx;
+}
+.ocbtn{
+  background-color: #ABCAFF;
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 30rpx;
+}
+.banner{
+  width: 96%;
+  height: 280rpx;
+  background-color: white;
+  border-radius: 38rpx;
+  margin: 54rpx auto 0rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.banner-box {
+  width: 200rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  background-color:#abcaff;
+  border-radius: 50rpx;
+}

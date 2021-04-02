@@ -1,0 +1,20 @@
+<view class="big-box">
+	<view class="first-box">
+		<image class="img" src="../../images/login.png"></image>
+	</view>
+	<view class="input-box">
+		<text>帐户</text>
+		<input class="input" type="text" bindinput="getAccount" placeholder="用户名/邮箱"></input>
+	</view>
+	<view class="input-box">
+		<text>密码</text>
+		<input class="input" type="password" placeholder="密码" bindinput="getPassWord"></input>
+	</view>
+	<view class="login-box" bindtap="login">登 录</view>
+
+	<view class="last-box">
+		<view class="last-button" style="width: 250rpx" bindtap="goto_register">注册</view>
+		<view class="last-button" style="width: 250rpx" bindtap="goto_forget_password">找回密码</view>
+	</view>
+
+</view>

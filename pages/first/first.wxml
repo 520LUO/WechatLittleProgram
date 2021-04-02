@@ -1,0 +1,36 @@
+<view class="big-box">
+
+	<!-- 首页轮播图 -->
+	<view class="box1">
+		<swiper class="swiper-box" indicator-dots="true" autoplay="true" interval="2000">
+			<swiper-item>
+				<navigator url="../results/results?str=idcard" hover-class="none">
+					<image src="../../images/识别.jpg" class="img"></image>
+				</navigator>
+			</swiper-item>
+
+			<swiper-item class="img">
+				<navigator url="../results/results?str=text" hover-class="none">
+					<image src="../../images/识别2.jpg" class="img"></image>
+				</navigator>
+			</swiper-item>
+		</swiper>
+	</view>
+
+	<!-- 快捷文字识别 -->
+	<view class="ocbtn">
+		<navigator url="../results/results?str=text" hover-class="none">
+			<text>文字快速识别</text>
+		</navigator>
+	</view>
+	<!-- 识别功能栏 -->
+	<view class="banner">
+		<view class="banner-box" wx:for="{{banner}}">
+			<navigator url="{{item.url}}" hover-class="none" bindtap="click{{index+1}}">
+				<view>
+					{{item.txt}}
+				</view>
+			</navigator>
+		</view>
+	</view>
+</view>

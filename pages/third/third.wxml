@@ -1,0 +1,29 @@
+<view class="big-box">
+	<view class="navigation-box">
+		<view class="img-box">
+			<image class="img" src="{{headimg}}" mode="aspectFill" bindtap="updateheadimg"></image>
+		</view>
+		<view class="account-box" bindtap="goto_updateName">{{account}}</view>
+	</view>
+	<view class="botton-box">
+		<view class="item" bindtap="goto_updateName">
+			<text>修改昵称</text>
+		</view>
+		<view class="item" bindtap="updateheadimg">
+			<text>修改头像</text>
+		</view>
+		<view class="item" bindtap="goto_resetpassword">
+			<text>修改密码</text>
+		</view>
+
+		<view class="item" bindtap="goto_operation">
+			<text>使用指南</text>
+		</view>
+		<view class="item" bindtap="goto_contact">
+			<text>联系我们</text>
+		</view>
+
+	</view>
+	<view class="exit" bindtap="exit">退出登录</view>
+
+</view>
